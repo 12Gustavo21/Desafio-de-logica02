@@ -13,8 +13,7 @@ body{
     align-items: center;
     justify-content: center;
     background: linear-gradient(180deg, #9200AD, #9C15B5, #A62ABD,  #B040C5,  #BB55CD,  #C56BD6,  #CF80DE,  #DA95E6,  #E4ABEE,  #EEC0F6,  #F9D6FF);
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-attachment: fixed;
     height: 100vh;
 }
 
