@@ -76,18 +76,64 @@ button:hover{
     color: #F9D6FF;
 }
 
-@media(max-width: 660px){
-    body{
-        
-    }
+@media(max-width: 2560px){
     h1{
-        font-size: 70px;
+        font-size: 90px;
+    }
+    img{
+        width: 900px;
     }
     p{
-        font-size: 40px;
+        font-size: 100px;
     }
     button{
-        padding: 10px;
-        font-size: 20px;
+        width: 150px;
+        padding: 20px;
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 1440px){
+    h1{
+        font-size: 50px;
+    }
+    img{
+        width: 500px;
+    }
+    p{
+        font-size: 30px;
+    }
+    button{
+        padding: 8px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 1024px){
+    button{
+        width: 50px;
+        padding: 5px;
+    }
+}
+
+@media(max-width: 425px){
+    img{
+        width: 300px;
+    }
+    h1{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 320px){
+    h1{
+        font-size: 40px;
+    }
+    P{
+        font-size: 30px;
+    }
+    button{
+        padding: 6px;
+        font-size: 15px;
     }
 }
