@@ -31,7 +31,7 @@ if (letraInicialNome === "R") {
     console.log("Falso");
 }
 
-//Questão 06
+//Questão 05
 let sobreNome = "Almeida"
 let letraInicialSobrenome = "A";
 let numeroSobrenome = 7;
