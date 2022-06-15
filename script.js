@@ -12,7 +12,7 @@ let humano = true;
 if ((idade >= maiorDeIdade) && (humano)) {
     console.log("Maior de idade e humano");
 } else {
-    console.log("Menor de idade e alienígena");
+    console.log("Menor de idade ou alienígena");
 }
 
 //Questão 03
@@ -24,18 +24,16 @@ if ((aniversario === "Janeiro") || (aniversario === "Dezembro")) {
 }
 
 //Questão 04
-let letraInicialNome = "G";
-if (letraInicialNome === "R") {
+let nome = "Gustavo";
+if (nome.charAt(0) === "R") {
     console.log(true);
 } else {
     console.log(false);
 }
 
 //Questão 05
-let letraInicialSobrenome = "A";
-let numeroSobrenome = 7;
-if ((numeroSobrenome === 6) || (letraInicialSobrenome === "E")) {
+if ((nome.length === 6) || (nome.charAt(0) === "E")) {
     console.log(true);
 } else {
-    console.log(false)
+    console.log(false);
 }
